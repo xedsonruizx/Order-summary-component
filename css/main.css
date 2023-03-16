@@ -55,8 +55,9 @@ body {
 }
 
 
-@media (min-width: 320px) and (max-width: 750px) {
-  /* .main {
-    align-items: start;
-  } */
+@media (min-width: 320px) and (max-width: 376px) {
+  body{
+    background-image: url(../images/pattern-background-mobile.svg);
+    background-repeat: repeat-x;
+  }
 }
